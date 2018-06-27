@@ -19,7 +19,7 @@ function setup() {
 
  function weatherAsk(){
   var url = api + input.value() + apiKey + units;
-  loadJSON(url, gotData);
+  loadJSON(url, gotData, 'jsonnp');
   }
 
 function gotData(data){
